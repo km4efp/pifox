@@ -13,6 +13,7 @@ The Festival package is required for text to speech and WiringPi package is requ
 
 1. Install festival and wiringpi package
 2. Download pifox
+
 . Install Git on your Pi.
 
 "sudo apt-get install git-core"
@@ -34,6 +35,7 @@ The Festival package is required for text to speech and WiringPi package is requ
 "cd ~/pifox"
 
 "git pull"
+
 3. chmod +x all files
 4. Run "sudo ./pifox.sh" and edit settings
 5. Have fun
