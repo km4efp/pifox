@@ -69,7 +69,7 @@ Transmits the current time at the end of the message as in example above.  On is
 Default is 1
 
 Autofox:
-Bypasses menus and transmits automatically with current settings when script is ran.  This is useful for deploying in the field where connecting to Pi  may not be convenient.  You must still manually run the script but the script requires no user input and automatically loads your settings.  To disable autofox run \"sudo ./pifox.sh autofoxoff\".  For a completely automated fox select the menu option run at boot so pifox transmits when pi is powered on requiring 0 user input.  This is the best option for field use.
+Bypasses menus and transmits automatically with current settings when script is ran.  This is useful for deploying in the field where connecting to Pi  may not be convenient.  You must still manually run the script but the script requires no user input and automatically loads your settings.  To disable autofox run "sudo ./pifox.sh autofoxoff".  For a completely automated fox select the menu option run at boot so pifox transmits when pi is powered on requiring 0 user input.  This is the best option for field use.
 Default is 0
 
 Foxbutton:
