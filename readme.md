@@ -39,7 +39,7 @@ Autofox is enabled, to disable autofox run "sudo ./pifox autofoxoff".  You may e
 
 Help every time I power on or boot my pi the pifox script starts transmitting!
 -
-run "sudo ./pifox.sh killfox" to stop transmitting.
+Run "sudo ./pifox.sh killfox" to stop transmitting.
 It will still run on next boot.  To remove it from startup run pifox and select menu option remove from boot.  This only happens when you have selected the menu option to automatically run at boot.
 
 ----
