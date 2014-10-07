@@ -10,7 +10,7 @@ Either load the default settings and input callsign and message or for more cont
 
 A fox hunt transmitter, typically referred to as a fox, is a radio transmitter usually playing a looped message that is hidden with the intention of being found using radio direction finding techniques and equipment.  They are typically meant for members of a club to find and contests are held to see who can be the first to find the fox.
 
-When using HAM frequencies a license is required by the FCC.  If using nbfm and your pi's GPIO4(pin7) as a transmitter a low pass or band pass filter is required.  For this reason vox is used by default with an external handheld radio's mic connected to Pi's audio out usually by use of an appropiately sized audio cable.  This way you set the vox on your radio to detect Pi's audio out and your radio transmits the message.  This is the easiest way to deploy the fox legally.  To utilize GPIO 4 and use the Pi by itself as a transmitter you must set vox to 0 in settings.  In this case no handheld radio is required, you simply add a wire to pin 7 on your Pi and feed into a low pass or bandpass filter for the chosen frequency and from there to an antenna.
+When using HAM frequencies a license is required by the FCC.  If using nbfm and your pi's GPIO4(pin7) as a transmitter a low pass or band pass filter is required.  For this reason vox is used by default with an external handheld radio's mic connected to Pi's audio out usually by use of an appropriately sized audio cable.  This way you set the vox on your radio to detect Pi's audio out and your radio transmits the message.  This is the easiest way to deploy the fox legally.  To utilize GPIO 4 and use the Pi by itself as a transmitter you must set vox to 0 in settings.  In this case no handheld radio is required, you simply add a wire to pin 7 on your Pi and feed into a low pass or bandpass filter for the chosen frequency and from there to an antenna.
 
 See http://www.homingin.com/boxes.html for an easy to build low pass filter on the 2m band.
 
@@ -20,7 +20,7 @@ Help my pifox automatically starts transmitting and I can not edit settings!
 run "sudo ./pifox autofoxoff"
 Turn autofox back on if you need  once you make any changes to settings.
 
-Help everytime I power on or boot my pi the pifox script starts transmitting!
+Help every time I power on or boot my pi the pifox script starts transmitting!
 run "sudo ./pifox.sh killfox" to stop transmitting.
 It will still run on next boot.  To remove it from startup run pifox and select menu option remove from boot.
 
@@ -31,13 +31,13 @@ Input a number and press enter to access menu option.
 "  0    Run fox script"
 Starts transmission
 
-"  1    Load default settings"
+", 1,,, Load default settings"
 Loads the default settings but asks user to input their callsign and a message.
 
-"  2    Edit current settings"
+"  2,,, Edit current settings"
 This takes full advantage of any setting the user wishes giving full control of the fox.
 
-"  3    Display current settings"
+", 3,,, Display current settings"
 Displays current configuration file for easy reference.
 
 "  4    Automatically run at boot"
