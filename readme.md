@@ -14,10 +14,13 @@ The Festival package is required for text to speech and WiringPi package is requ
 1. Install festival and wiringpi package
 2. Download pifox
 3. chmod +x all files
-4. Run "sudo ./pifox.sh"
-5. Edit settings and run fox
+4. Run "sudo ./pifox.sh" and edit settings
+5. Have fun
 
-Either load the default settings and input callsign and message or for more control select edit settings to take full advantage of the script. Leave nothing blank, you must manually input all settings
+Either select the menu option to load the default settings which prompts to input callsign and message or for more control select edit settings to take full advantage of the script.
+
+Leave nothing blank!
+You must manually input all settings.
 
 When using HAM frequencies a license is required by the FCC.  If using nbfm and your pi's GPIO4(pin7) as a transmitter a low pass or band pass filter is required.  For this reason vox is used by default with an external handheld radio's mic connected to Pi's audio out usually by use of an appropriately sized audio cable.  This way you set the vox on your radio to detect Pi's audio out and your radio transmits the message.  This is the easiest way to deploy the fox legally.  To utilize GPIO 4 and use the Pi by itself as a transmitter you must set vox to 0 in settings.  In this case no handheld radio is required, you simply add a wire to pin 7 on your Pi and feed into a low pass or bandpass filter for the chosen frequency and from there to an antenna.
 
