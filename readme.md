@@ -125,5 +125,5 @@ Default is 7
 
 Thank you.  Please let me know how the script works for you. I would enjoy hearing your club is using it.  If making changes or redistributing please be sure to give me credit.  Report any bugs or feedback to km4efp@yahoo.com 
 
-An up to date version can usually be found at
-https://groups.yahoo.com/neo/groups/Raspberry_Pi_4-Ham_RADIO/files/pifox.zip
+An up to date version can be found at
+https://github.com/km4efp/pifox
