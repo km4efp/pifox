@@ -23,42 +23,42 @@ Turn autofox back on if you need  once you make any changes to settings.
 Help every time I power on or boot my pi the pifox script starts transmitting!
 run "sudo ./pifox.sh killfox" to stop transmitting.
 It will still run on next boot.  To remove it from startup run pifox and select menu option remove from boot.
-
+-----
 Menu options
-
+-----
 Input a number and press enter to access menu option.
 
 0 Run fox script
 
 Starts transmission
-
+-
 1 Load default settings
 
 Loads the default settings but asks user to input their callsign and a message.
-
+-
 2 Edit current settings
 
 This takes full advantage of any setting the user wishes giving full control of the fox.
-
+-
 3 Display current settings
 
 Displays current configuration file for easy reference.
-
+-
 4 Automatically run at boot
 
 Enables autofox and runs pifox when you power on your pi.  This is the best option for deploying a fox in the field.
-
+-
 5 Remove from boot
 
 Removes pifox from startup
-
+-
 6 Close program
 
 Exit script
 
-
+-----
 Settings
-
+-----
 For many settings 0 is OFF / 1 is ON
 
 Do not leave any line blank you must manually input all settings.  Input the setting then press enter to proceed to the next setting.
@@ -129,6 +129,8 @@ Default is 110.9
 Power:
 Set the transmit power level as 0-7.
 Default is 7
+
+-----
 
 Thank you.  Please let me know how the script works for you. I would enjoy hearing your club is using it.  If making changes or redistributing please be sure to give me credit.  Report any bugs or feedback to km4efp@yahoo.com 
 
