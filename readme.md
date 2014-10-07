@@ -11,9 +11,11 @@ Installation
 
 The Festival package is required for text to speech and WiringPi package is required for GPIO use.
 
-1. Update pi and install git, festival, and wiringpi package
+1. Update Pi and install git, festival, and wiringpi package
 
 -----
+
+Update Pi
 
 "sudo apt-get update"
 
@@ -33,7 +35,7 @@ Install festival
 
 -----
 
-Install wiringpi
+Install wiringPi
 
 http://wiringpi.com/download-and-install/
 
