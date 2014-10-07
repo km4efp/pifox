@@ -11,8 +11,13 @@ Installation
 
 The Festival package is required for text to speech and WiringPi package is required for GPIO use.
 
-1. Install festival and wiringpi package
-2. Download pifox
+1. Update pi and install git, festival, and wiringpi package
+
+-----
+
+"sudo apt-get update"
+
+"sudo apt-get upgrade"
 
 -----
 
@@ -22,7 +27,23 @@ Install Git on your Pi.
 
 -----
 
-make a pifox directory in home
+Install festival
+
+"sudo apt-get install festival"
+
+-----
+
+Install wiringpi
+
+http://wiringpi.com/download-and-install/
+
+-----
+
+2. Download pifox
+
+-----
+
+Make a pifox directory in home
 
 "cd ~"
 
@@ -47,8 +68,32 @@ updating pifox
 -----
 
 3. chmod +x all files
-4. Run "sudo ./pifox.sh" and edit settings
+
+-----
+
+"cd ~/pifox/pifox"
+
+"sudo chmod +x *"
+
+-----
+
+4. Run pifox and edit settings
+
+-----
+
+"sudo ./pifox.sh"
+
+Select menu option 1 or 2 to configure
+
+Transmit with menu option 0
+
+-----
+
 5. Have fun
+
+-----
+
+Setup
 
 Either select the menu option to load the default settings which prompts to input callsign and message or for more control select edit settings to take full advantage of the script.
 
