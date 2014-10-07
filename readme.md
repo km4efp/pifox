@@ -28,25 +28,25 @@ Menu options
 
 Input a number and press enter to access menu option.
 
-0. Run fox script
+0 Run fox script
 Starts transmission
 
-1. Load default settings
+1 Load default settings
 Loads the default settings but asks user to input their callsign and a message.
 
-2. Edit current settings
+2 Edit current settings
 This takes full advantage of any setting the user wishes giving full control of the fox.
 
-3. Display current settings
+3 Display current settings
 Displays current configuration file for easy reference.
 
-4. Automatically run at boot
+4 Automatically run at boot
 Enables autofox and runs pifox when you power on your pi.  This is the best option for deploying a fox in the field.
 
-5. Remove from boot
+5 Remove from boot
 Removes pifox from startup
 
-6. Close program
+6 Close program
 Exit script
 
 
