@@ -1,4 +1,13 @@
+pifox v113
+-
 pifox is a script written by KM4EFP to configure, control, and deploy a fox hunt transmitter.  It is based on a script by fotograf_ale from Yahoo group Raspberry_Pi_4-Ham_RADIO to control nbfm by IK1PLD.  Schematics were made using electronic circuit design spen.
+
+A fox hunt transmitter, typically referred to as a fox, is a radio transmitter usually playing a looped message that is hidden with the intention of being found using radio direction finding techniques and equipment.  They are typically meant for members of a club to find and contests are held to see who can be the first to find the fox.
+
+-----
+
+Installation
+-
 
 The Festival package is required for text to speech and WiringPi package is required for GPIO use.
 
@@ -8,19 +17,24 @@ Chmod +x all files
 Run "sudo ./pifox.sh"
 Either load the default settings and input callsign and message or for more control select edit settings to take full advantage of the script. Leave nothing blank, you must manually input all settings
 
-A fox hunt transmitter, typically referred to as a fox, is a radio transmitter usually playing a looped message that is hidden with the intention of being found using radio direction finding techniques and equipment.  They are typically meant for members of a club to find and contests are held to see who can be the first to find the fox.
-
 When using HAM frequencies a license is required by the FCC.  If using nbfm and your pi's GPIO4(pin7) as a transmitter a low pass or band pass filter is required.  For this reason vox is used by default with an external handheld radio's mic connected to Pi's audio out usually by use of an appropriately sized audio cable.  This way you set the vox on your radio to detect Pi's audio out and your radio transmits the message.  This is the easiest way to deploy the fox legally.  To utilize GPIO 4 and use the Pi by itself as a transmitter you must set vox to 0 in settings.  In this case no handheld radio is required, you simply add a wire to pin 7 on your Pi and feed into a low pass or bandpass filter for the chosen frequency and from there to an antenna.
 
 See http://www.homingin.com/boxes.html for an easy to build low pass filter on the 2m band.
 
 pifox can be ran in several modes both assisted requiring a connection to the pi to run the script and unassisted.  When in unassisted mode we call it autofox.  When autofox is enabled it bypasses all menus and goes straight into transmitting.  To disable autofox to edit settings or for whatever reason run "sudo ./pifox.sh autofoxoff".  You can set autofox in settings to 1 to automatically run pifox with your configured settings.  With just this setting enabled it still requires you to log into your pi and run the script which may not be convenient in the field.  To solve this problem I added a menu item to setup pifox to run when your pi boots up or is powered on.  Simply select the run at boot menu option to have pifox run when power is connected to the pi.  To stop the transmission when your pi boots up run "sudo ./pifox.sh killfox" and to remove from startup select the menu option remove from boot.  This may still not be ideal and I thought of this instance too and wrote a script to only transmit when a switch is flipped or an on/off button is on.  For this instance you would set foxbutton to 1.  This uses GPIO 23(pin 16) connected to a switch on a pullup resistor to transmit your fox.  Please refer to the included schematic if you need help with this.  My foxbox has a pi powered by a 6000mah usb power bank inside a 30 caliber ammo can and is running pifox and starts automatically when the pi is powered on and waits for a switch to be flipped before it starts transmitting as in the last example.  In my opinion this is the ideal method of deploying the fox in the field. It requires no user input and is easy for anyone to deploy with just the flip of a switch.
 
+-----
+
+Quick Help
+-
+
 Help my pifox automatically starts transmitting and I can not edit settings!
+-
 run "sudo ./pifox autofoxoff"
 Turn autofox back on if you need  once you make any changes to settings.
 
 Help every time I power on or boot my pi the pifox script starts transmitting!
+-
 run "sudo ./pifox.sh killfox" to stop transmitting.
 It will still run on next boot.  To remove it from startup run pifox and select menu option remove from boot.
 
