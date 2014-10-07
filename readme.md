@@ -13,6 +13,27 @@ The Festival package is required for text to speech and WiringPi package is requ
 
 1. Install festival and wiringpi package
 2. Download pifox
+. Install Git on your Pi.
+
+"sudo apt-get install git-core"
+
+. make a pifox directory in home
+
+"cd ~"
+
+"mkdir pifox"
+
+"cd pifox"
+
+. then pull pifox
+
+"git clone git://github.com/km4efp/pifox.git"
+
+. updating pifox
+
+"cd ~/pifox"
+
+"git pull"
 3. chmod +x all files
 4. Run "sudo ./pifox.sh" and edit settings
 5. Have fun
