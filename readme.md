@@ -38,8 +38,6 @@ Install wiringPi
 
 http://wiringpi.com/download-and-install/
 
------
-
 2. Download pifox
 -
 
@@ -65,8 +63,6 @@ updating pifox
 
 "git pull"
 
------
-
 3. chmod +x all files
 -
 
@@ -74,14 +70,10 @@ updating pifox
 
 "sudo chmod +x *"
 
------
-
 4. Run pifox
 -
 
 "sudo ./pifox.sh"
-
------
 
 5. Configure your settings
 -
