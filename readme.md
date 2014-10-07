@@ -55,7 +55,7 @@ Make a pifox directory in home
 
 -----
 
-then pull pifox
+then download pifox
 
 "git clone git://github.com/km4efp/pifox.git"
 
