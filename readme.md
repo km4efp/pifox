@@ -154,7 +154,7 @@ Default is 400
 
 Tone:
 -
-Set the tone level in absolute 0-1.
+Enable PL Tone.
 Default is 0
 
 Tone Frequency:

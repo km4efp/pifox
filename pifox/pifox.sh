@@ -173,7 +173,7 @@ echo "Preemphasis: Set the preemphasis in microseconds.  Default is 400"
 read new7
 sed -i "s/Preemphasis.*/Preemphasis=$new7/" $config
 
-echo "Tone: Set the tone level in absolute between 0 and 1.  Default is 0"
+echo "Tone: Enable PL Tone.  Default is 0"
 read new8
 sed -i "s/Tone=.*/Tone=$new8/" $config
 
