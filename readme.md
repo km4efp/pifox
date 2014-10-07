@@ -33,15 +33,14 @@ pifox can be ran in several modes both assisted requiring a connection to the pi
 Quick Help
 -
 
-Help my pifox automatically starts transmitting and I can not edit settings!
+Help my pifox automatically starts transmitting when pifox is ran and I can not edit settings!
 -
-run "sudo ./pifox autofoxoff"
-Turn autofox back on if you need  once you make any changes to settings.
+Autofox is enabled, to disable autofox run "sudo ./pifox autofoxoff".  You may enable it again by editting settings from the main menu.
 
 Help every time I power on or boot my pi the pifox script starts transmitting!
 -
 run "sudo ./pifox.sh killfox" to stop transmitting.
-It will still run on next boot.  To remove it from startup run pifox and select menu option remove from boot.
+It will still run on next boot.  To remove it from startup run pifox and select menu option remove from boot.  This only happens when you have selected the menu option to automatically run at boot.
 
 ----
 Menu options
@@ -170,7 +169,7 @@ Default is 7
 
 -----
 
-Thank you.  Please let me know how the script works for you. I would enjoy hearing your club is using it.  If making changes or redistributing please be sure to give me credit.  Report any bugs or feedback to km4efp@yahoo.com 
+Thank you.  Please let me know how the script works for you. I would enjoy hearing that your club is using pifox.  If making changes or redistributing pifox please be sure to give me credit.  Report any bugs or feedback to km4efp@yahoo.com 
 
 An up to date version can be found at
 https://github.com/km4efp/pifox
