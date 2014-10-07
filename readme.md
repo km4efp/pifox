@@ -31,13 +31,13 @@ Input a number and press enter to access menu option.
 "  0    Run fox script"
 Starts transmission
 
-", 1,,, Load default settings"
+" 1     Load default settings"
 Loads the default settings but asks user to input their callsign and a message.
 
-"  2,,, Edit current settings"
+"  2    Edit current settings"
 This takes full advantage of any setting the user wishes giving full control of the fox.
 
-", 3,,, Display current settings"
+"  3    Display current settings"
 Displays current configuration file for easy reference.
 
 "  4    Automatically run at boot"
