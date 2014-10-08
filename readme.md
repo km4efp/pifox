@@ -1,6 +1,6 @@
 pifox v113
 -
-pifox is a script written by KM4EFP to configure, control, and deploy a fox hunt transmitter.  It is based on a script by fotograf_ale from Yahoo group Raspberry_Pi_4-Ham_RADIO to control nbfm by IK1PLD.  Schematics were made using electronic circuit design spen.
+pifox is a script written by KM4EFP to configure, control, and deploy a Raspberry Pi as a fox hunt transmitter.  No external radio needed use your Pi's gpio output as a radio transmitter.  pifox is based on a script by fotograf_ale from Yahoo group Raspberry_Pi_4-Ham_RADIO to control nbfm by IK1PLD.  Schematics were made using electronic circuit design spen.
 
 A fox hunt transmitter, typically referred to as a fox, is a radio transmitter usually playing a looped message that is hidden with the intention of being found using radio direction finding techniques and equipment.  They are typically meant for members of a club to find and contests are held to see who can be the first to find the fox.
 
