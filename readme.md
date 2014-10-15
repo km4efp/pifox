@@ -36,7 +36,7 @@ Install festival
 
 Install wiringPi
 
-"cd ~/"
+"cd ~"
 
 "git clone git://git.drogon.net/wiringPi"
 
@@ -49,7 +49,7 @@ Install wiringPi
 
 Make a pifox directory in home
 
-"cd ~/"
+"cd ~"
 
 "mkdir pifox"
 
