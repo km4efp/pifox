@@ -36,14 +36,20 @@ Install festival
 
 Install wiringPi
 
-http://wiringpi.com/download-and-install/
+"cd ~/"
+
+"git clone git://git.drogon.net/wiringPi"
+
+"cd wiringPi"
+
+"./build"
 
 2. Download pifox
 -
 
 Make a pifox directory in home
 
-"cd ~"
+"cd ~/"
 
 "mkdir pifox"
 
