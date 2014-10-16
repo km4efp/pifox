@@ -47,17 +47,7 @@ Install wiringPi
 2. Download pifox
 -
 
-Make a pifox directory in home
-
 "cd ~"
-
-"mkdir pifox"
-
-"cd pifox"
-
------
-
-then download pifox
 
 "git clone git://github.com/km4efp/pifox.git"
 
