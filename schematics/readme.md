@@ -56,7 +56,7 @@ Distributors/Credits
 Raspberry Pi power switch courtesy of
 ---
 
-http://mausberry-circuits.myshopify.com/
+http://mausberrycircuits.com/
 
 Note: Requires use of different gpio pins when making connection to pi as of my projects current configuration which only requires an easy change in their configuration file to work around this.  View the setup page on their website.
 
