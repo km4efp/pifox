@@ -7,7 +7,9 @@ Transmit switch
 ---
 
 1k resistor
+
 10k resistor
+
 spst switch
 
 refer to transmitswitch.jpg
@@ -16,6 +18,7 @@ Transmission in progress led
 ---
 
 led
+
 ~330ohm resistor (different value ok alters brightness)
 
 refer to transmissionled.jpg
@@ -24,16 +27,23 @@ refer to transmissionled.jpg
 ---
 
 1x 5pf capacitor
+
 2x 10pf capacitors
+
 2x 22pf capacitors
 
 20awg magnet/enamel wire
+
 15/64 drill bit
+
 use to create
+
 2x 3 turns coil
+
 1x 2 turns coil
 
 refer to pcblayout.jpg
+
 "x" represents cutting traces
 
 -----
