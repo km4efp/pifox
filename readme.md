@@ -6,6 +6,17 @@ A fox hunt transmitter, typically referred to as a fox, is a radio transmitter u
 
 -----
 
+Links
+-
+
+Youtube video: https://youtube.com/watch?v=pS8iptNlg2g
+
+Hack a Day Project: http://hackaday.io/project/3325-pifox
+
+Git Repo: https://github.com/km4efp/pifox
+
+-----
+
 Installation on Raspbian
 -
 
